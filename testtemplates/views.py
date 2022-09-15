@@ -9,3 +9,7 @@ def index(request):
 def signin(request):
     context = {}
     return render(request,'my_tmp/sign-in.html', context)
+
+def signup(request):
+    context = {}
+    return render(request,'my_tmp/sign-up.html', context)

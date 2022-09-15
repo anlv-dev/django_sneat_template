@@ -20,13 +20,13 @@
       <!-- Required Fremwork -->
       <link rel="stylesheet" type="text/css" href="{% static 'assets/css/bootstrap/css/bootstrap.min.css' %}">
       <!-- waves.css -->
-      <link rel="stylesheet" href="{% static 'assets/pages/waves/css/waves.min.css" type="text/css" media="all">
+      <link rel="stylesheet" href="{% static 'assets/pages/waves/css/waves.min.css' %}" type="text/css" media="all">
       <!-- themify icon -->
       <link rel="stylesheet" type="text/css" href="{% static 'assets/icon/themify-icons/themify-icons.css' %}">
       <!-- Font Awesome -->
       <link rel="stylesheet" type="text/css" href="{% static 'assets/icon/font-awesome/css/font-awesome.min.css' %}">
       <!-- scrollbar.css -->
-      <link rel="stylesheet" type="text/css" href="{% static 'assets/css/jquery.mCustomScrollbar.css">
+      <link rel="stylesheet" type="text/css" href="{% static 'assets/css/jquery.mCustomScrollbar.css' %}">
         <!-- am chart export.css -->
         <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css' %}" type="text/css" media="all" />
       <!-- Style.css -->
@@ -403,7 +403,7 @@
                                           </a>
                                       </li>
                                       <li class=" ">
-                                          <a href="auth-sign-up.html" class="waves-effect waves-dark">
+                                          <a href="{% url 'testtemplates:signup' %}" class="waves-effect waves-dark">
                                               <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
                                               <span class="pcoded-mtext" data-i18n="nav.basic-components.breadcrumbs">Đăng ký</span>
                                               <span class="pcoded-mcaret"></span>
@@ -464,7 +464,7 @@
     <script type="text/javascript" src="{% static 'assets/js/bootstrap/js/bootstrap.min.js' %} "></script>
     <script type="text/javascript" src="{% static 'assets/pages/widget/excanvas.js' %}"></script>
     <!-- waves js -->
-    <script src="{% static 'assets/pages/waves/js/waves.min.js"></script>
+    <script src="{% static 'assets/pages/waves/js/waves.min.js' %}"></script>
     <!-- jquery slimscroll js -->
     <script type="text/javascript" src="{% static 'assets/js/jquery-slimscroll/jquery.slimscroll.js' %} "></script>
     <!-- modernizr js -->
